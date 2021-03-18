@@ -16,8 +16,7 @@ main {
   flex-direction: column;
 }
 footer {
-    margin-top: 200px;
-    margin-left:800px;
-    margin-right:0px;
-   
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
