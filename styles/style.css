@@ -1,16 +1,23 @@
-#center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  <style>
-.verticalhorizontal {
-    display: table-cell;
-    height: 300px;
-    text-align: center;
-    width: 300px;
-    vertical-align: middle;
+body {
+    display: flex;
+    flex-direction: column;
+    height:98vh;
+    justify-content: space-between;
 }
-</style>
+nav {
+    display :flex;
+    justify-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer {
+    margin-top: 200px;
+    margin-left:800px;
+    margin-right:0px;
+   
+}
